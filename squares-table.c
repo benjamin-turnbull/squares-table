@@ -7,11 +7,8 @@ int main(void) {
 	printf("Enter number of entries in table: ");
 	scanf("%d", &n);
 
-	i = 1;
-	while (i <= n) {
+	for (i = 1; i <= n; i++)
 		printf("%10d%10d\n", i, i * i);
-		i++;
-	}
 
 	return 0;
 }
